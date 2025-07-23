@@ -193,7 +193,7 @@ fun CameraScreen(viewModel: CameraViewModel = viewModel()) {
                     modifier = Modifier.padding(bottom = 8.dp)
                 )
                 Button(onClick = { viewModel.isLocked.value = !viewModel.isLocked.value }) {
-                    Text(if (viewModel.isLocked.value) "Desbloquear Color" else "Bloquear Color")
+                    Text(if (viewModel.isLocked.value) "Pause" else "Resume")
                 }
             }
 
