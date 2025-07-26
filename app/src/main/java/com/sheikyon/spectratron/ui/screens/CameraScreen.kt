@@ -4,7 +4,6 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.delay
 import android.Manifest
-import android.graphics.Bitmap
 import android.graphics.Color
 import android.util.Log
 import android.util.Size
